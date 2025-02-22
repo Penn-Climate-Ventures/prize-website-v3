@@ -8,7 +8,7 @@ import { BrowserRouter } from 'react-router-dom';
 // Dynamically set basename for GitHub Pages vs. local development
 const basename =
   process.env.NODE_ENV === 'production'
-    ? '/prize-website-v2'
+    ? '/prize-website-v3'
     : '/'; // In dev, use "/", so links work at http://localhost:3000
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
