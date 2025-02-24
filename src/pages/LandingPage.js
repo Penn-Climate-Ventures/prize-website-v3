@@ -2,7 +2,6 @@ import React from 'react';
 import Navbar from '../components/NavBar';
 import Footer from '../components/Footer';
 import Countdown from '../components/countdown/countdown';
-import { Link } from 'react-router-dom';
 
 import './LandingPage.css';
 
@@ -49,13 +48,13 @@ const LandingPage = () => {
             If you’re at all interested in addressing environmental issues through a business perspective, 
             this competition is a perfect way to get real-world experience and feedback from industry experts.
             </p>
-            <Link
-              to="/apply"
+            <a
+              href="https://airtable.com/appsSPuO4G3jMYsxD/page4XsJ8x8dN0WKG/form"
               className="cta-button"
               onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
             >
               Register Now
-            </Link>
+            </a>
           </div>
         </section>
 
