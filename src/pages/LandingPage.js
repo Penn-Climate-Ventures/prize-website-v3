@@ -50,11 +50,11 @@ const LandingPage = () => {
             this competition is a perfect way to get real-world experience and feedback from industry experts.
             </p>
             <Link
-              to="/apply"
+              to="https://airtable.com/appsSPuO4G3jMYsxD/page4XsJ8x8dN0WKG/form"
               className="cta-button"
               onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
             >
-              Register Now
+              Register Now!
             </Link>
           </div>
         </section>
