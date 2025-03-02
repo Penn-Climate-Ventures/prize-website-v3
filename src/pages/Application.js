@@ -126,10 +126,7 @@ const Application = () => {
             <h3>Round 2: Project Development &amp; Execution</h3>
             <ul>
               <li>
-                <strong>Project Brief:</strong> Advancing teams are required to develop a comprehensive, 15-page stock pitch. This phase emphasizes practical action—such as developing an MVP or initiating services—to demonstrate real progress on your proposed idea.
-              </li>
-              <li>
-                <strong>Mentorship Support</strong>
+                <strong>Project Brief:</strong> Advancing teams are required to develop a comprehensive, up to 15-page pitch. This phase emphasizes practical environmental action to demonstrate real progress on your proposed idea.
               </li>
               <li>
                 <strong>Apr 4 – Second Round Submission Deadline:</strong> Ensure your updated and enhanced proposal is submitted by this date. Details will be released on March 28, 2025.
