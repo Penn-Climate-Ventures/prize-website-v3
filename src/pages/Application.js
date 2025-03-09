@@ -113,17 +113,17 @@ const Application = () => {
                 </ul>
               </li>
               <li>
-                <strong>Mar 14 – First Round Submission Deadline:</strong> Submit your complete application by this date.
+                <strong>April 4 – First Round Submission Deadline:</strong> Submit your complete application by this date.
               </li>
               <li>
-                <strong>Mar 22 – Opening Ceremony:</strong> Attend our virtual opening event to get to know the competition, meet our sponsors, and hear insights from Penn alumni in the energy field.
+                <strong>April 5 – Opening Ceremony:</strong> Attend our virtual opening event to get to know the competition, meet our sponsors, and hear insights from Penn alumni in the energy field.
               </li>
               <li>
-                <strong>Mar 28 – First Round Results Announced:</strong> The top 16 teams per track will progress to Round 2.
+                <strong>April 18 – First Round Results Announced:</strong> The top 16 teams per track will progress to Round 2.
               </li>
             </ul>
 
-            <h3>Round 2: Project Development &amp; Execution</h3>
+            {/* <h3>Round 2: Project Development &amp; Execution</h3>
             <ul>
               <li>
                 <strong>Project Brief:</strong> Advancing teams are required to develop a comprehensive, up to 15-page pitch. This phase emphasizes practical environmental action to demonstrate real progress on your proposed idea.
@@ -134,21 +134,21 @@ const Application = () => {
               <li>
                 <strong>Apr 18 – Second Round Results Announced:</strong> Four teams per track (eight teams total) will advance to the Final Round.
               </li>
-            </ul>
+            </ul> */}
 
             <h3>Final Round: Live Pitch Presentation</h3>
             <ul>
               <li>
-                <strong>Preparation:</strong> Use the feedback from Round 2 to further refine your product before the live pitch.
+                <strong>Preparation:</strong> Use the feedback from Round 1 to further refine your product before the live pitch.
               </li>
               <li>
                 <strong>Pitch Details:</strong> You will have a 15-minute presentation followed by an 8-minute Q&amp;A session with a panel of Penn professors and industry experts.
               </li>
               <li>
-                <strong>Apr 26 – Final Round Event:</strong> Deliver your live pitch presentation.
+                <strong>April 26 – Final Round Event(HS)</strong>
               </li>
               <li>
-                <strong>Apr 31 – Winner Announcement:</strong> Final winners will be announced, and each track’s winner will share a prize pool totaling $18,000.
+                <strong>April 31 – Final Round Event(Undergraduate)</strong> 
               </li>
             </ul>
           </div>
@@ -194,7 +194,7 @@ const Application = () => {
                 <strong>Cross-Institution Collaboration Allowed:</strong> Teams do not need to be from the same school, university, or country, as long as they fit within the same division.
               </li>
               <li>
-                <strong>Number of Team Members:</strong> Teams should consist of 2-5 members in the same pool (excluding their mentor).
+                <strong>Number of Team Members:</strong> Teams should consist of 1-5 members in the same pool (excluding their mentor).
               </li>
             </ul>
 
