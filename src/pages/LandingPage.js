@@ -19,7 +19,7 @@ const LandingPage = () => {
 
         <div className="hero-content">
           <h1 className="title">UPenn Eco-Venture Challenge</h1>
-          <p className="subheading">WE HAVE EXTENDED OUR DEADLINE FROM MARCH 14TH TO APRIL 4TH</p>
+          <p className="subheading"><b>WE HAVE EXTENDED OUR DEADLINE FROM MARCH 14TH TO APRIL 4TH</b></p>
           <p className="subheading">Preparing tomorrow’s leaders to tackle today’s climate crisis.</p>
           <Countdown />
           <p className="subcountdown">UNTIL FIRST ROUND CLOSES</p>
