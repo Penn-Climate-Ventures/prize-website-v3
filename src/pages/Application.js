@@ -148,7 +148,7 @@ const Application = () => {
                 <strong>April 26 – Final Round Event(HS)</strong>
               </li>
               <li>
-                <strong>April 31 – Final Round Event(Undergraduate)</strong> 
+                <strong>April 27 – Final Round Event(Undergraduate)</strong> 
               </li>
             </ul>
           </div>
