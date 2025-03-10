@@ -68,7 +68,7 @@ const Application = () => {
               Solutions can range from physical products to forums, events, or community service initiatives—either new ideas or existing projects you want to expand. Participants are encouraged to submit a prototype or demonstrate tangible progress, though it doesn’t need to be extensive.
               <br />
               <br />
-              The deadline for the first round is March 14th 11:59PM EST. Apply below!
+              The deadline for the first round is April 4th, 11:59PM EST. Apply below!
             </p>
 
             <a
@@ -218,7 +218,7 @@ const Application = () => {
               PCV reserves the <b>right to disqualify</b> any project that does not meet the eligibility requirements or violates the competition's integrity standards.
             </p>
             <p>
-              All participants are required to sign up on the registration form and participate in the virtual opening ceremony on <b> March 22, 2025 at 7PM EST.</b> The link to the virtual opening ceremony will be provided to your email prior to the event.
+              All participants are required to sign up on the registration form and participate in the virtual opening ceremony on <b> April 5th, 2025 at 7PM EST.</b> The link to the virtual opening ceremony will be provided to your email prior to the event.
             </p>
           </div>
         </section>
