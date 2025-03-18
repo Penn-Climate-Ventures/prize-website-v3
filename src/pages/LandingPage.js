@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../components/NavBar';
 import Footer from '../components/Footer';
 import Countdown from '../components/countdown/countdown';
+import { Link } from 'react-router-dom';
 
 import './LandingPage.css';
 
@@ -41,7 +42,7 @@ const LandingPage = () => {
           <div className="content">
             <p>
             The EcoVenture Challenge hosted by the University of Pennsylvania is a 100% remote, no-cost, 
-            and accessible climate pitch competition for highschool and undergraduate students. Through 
+            and accessible climate pitch competition for  high school, undergraduate, and master's students. Through 
             our challenge, we aim to empower high school and university students to create environmental 
             business pitches to tackle today’s most pressing issues.
             </p>
@@ -49,13 +50,13 @@ const LandingPage = () => {
             If you’re at all interested in addressing environmental issues through a business perspective, 
             this competition is a perfect way to get real-world experience and feedback from industry experts.
             </p>
-            <a
-              href="https://airtable.com/appsSPuO4G3jMYsxD/page4XsJ8x8dN0WKG/form"
+            <Link
+              to="https://airtable.com/appsSPuO4G3jMYsxD/page4XsJ8x8dN0WKG/form"
               className="cta-button"
               onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
             >
-              Register Now
-            </a>
+              Register Now!
+            </Link>
           </div>
         </section>
 
