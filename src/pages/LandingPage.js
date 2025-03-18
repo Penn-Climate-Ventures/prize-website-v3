@@ -42,7 +42,7 @@ const LandingPage = () => {
           <div className="content">
             <p>
             The EcoVenture Challenge hosted by the University of Pennsylvania is a 100% remote, no-cost, 
-            and accessible climate pitch competition for highschool and undergraduate students. Through 
+            and accessible climate pitch competition for  high school, undergraduate, and master's students. Through 
             our challenge, we aim to empower high school and university students to create environmental 
             business pitches to tackle today’s most pressing issues.
             </p>
