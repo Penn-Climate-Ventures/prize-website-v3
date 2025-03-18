@@ -66,7 +66,7 @@ const LandingPage = () => {
             <br /><br />
             <h2 className="heading">Up to $10,000 in prizes!</h2>
             <p>
-              In The EcoVenture Challenge, you will have the opportunity to compete for a <b>$18,000 TOTAL PRIZE POOL!</b> Our mission with this cash prize is to inspire upcoming entrepreneurs and fuel personal environmental projects. The prize is flexible and will be directly deposited to participants. We hope that our flexible prize money will motivate students and ultimately create Penn’s most impactful sustainability competition yet.
+              In The EcoVenture Challenge, you will have the opportunity to compete for a <b>$10,000 TOTAL PRIZE POOL!</b> Our mission with this cash prize is to inspire upcoming entrepreneurs and fuel personal environmental projects. The prize is flexible and will be directly deposited to participants. We hope that our flexible prize money will motivate students and ultimately create Penn’s most impactful sustainability competition yet.
             </p>
             <br /><br /><br />
           </div>

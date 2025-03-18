@@ -12,11 +12,28 @@ const Footer = () => {
         <p style={styles.footerText}>
           Sponsors and Partners
         </p>
-        <img
-          src={`${process.env.PUBLIC_URL}/wharton-logo.png`}
-          alt="Wharton Logo"
-          style={styles.images}
-        />
+        <div style={styles.sponsorContainer}>
+          <img
+            src={`${process.env.PUBLIC_URL}/wharton-logo.png`}
+            alt="Wharton Logo"
+            style={styles.images}
+          />
+          <img
+            src={`${process.env.PUBLIC_URL}/lanzajet.png`}
+            alt="LanzaJet Logo"
+            style={styles.images}
+          />
+          <img
+            src={`${process.env.PUBLIC_URL}/kleinman.png`}
+            alt="Kleinman Logo"
+            style={styles.images}
+          />
+          <img
+            src={`${process.env.PUBLIC_URL}/esg.png`}
+            alt="ESG Logo"
+            style={{ ...styles.images, width: '100px', height: '100px' }}  // Override dimensions for square logo
+          />
+        </div>
         <p style={styles.footerText}>
           © 2025 PCV PRIZE. All rights reserved.
         </p>
@@ -39,9 +56,18 @@ const styles = {
     padding: '20px',
   },
   images: {
-    width: '20%',
-    display: 'block',
-    margin: '0 auto 10px',
+    width: '300px',
+    height: '200px',
+    objectFit: 'contain',
+  },
+  // Add specific style for ESG logo
+  sponsorContainer: {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    gap: '40px',
+    flexWrap: 'wrap',
+    margin: '20px 0',
   },
   footerText: {
     margin: 0,
