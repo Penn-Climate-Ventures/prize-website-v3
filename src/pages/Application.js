@@ -148,7 +148,7 @@ const Application = () => {
                 <strong>April 26 – Final Round Event(HS)</strong>
               </li>
               <li>
-                <strong>April 27 – Final Round Event(Undergraduate)</strong> 
+                <strong>April 27 – Final Round Event(Undergraduate + Masters)</strong> 
               </li>
             </ul>
           </div>
@@ -178,7 +178,7 @@ const Application = () => {
             <h3>Academic &amp; Professional Status</h3>
             <ul>
               <li>
-                <strong>University Division:</strong> Open to undergraduate and master's students. <b>PhD students, postdocs, and faculty members are not eligible to compete</b> as official team members but may serve as mentors or advisors.
+                <strong>University Division:</strong> Open to undergraduate and master's students. <b>PhD students, postdocs, and faculty members are not eligible to compete</b> as official team members but may serve as mentors or advisors to high school students.
               </li>
               <li>
                 <strong>High School Division:</strong> Open to all currently enrolled high school students, including homeschooled students at an equivalent educational level.
