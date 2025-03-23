@@ -119,7 +119,7 @@ const Application = () => {
                 <strong>April 5 – Opening Ceremony:</strong> Attend our virtual opening event to get to know the competition, meet our sponsors, and hear insights from Penn alumni in the energy field.
               </li>
               <li>
-                <strong>April 18 – First Round Results Announced:</strong> The top 16 teams per track will progress to Round 2.
+                <strong>April 18 – First Round Results Announced:</strong> The top 4 teams per track will progress to Round 2.
               </li>
             </ul>
 
