@@ -40,7 +40,7 @@ const NavBar = () => {
 
       <div className="social-media">
         <a
-          href="https://www.instagram.com/pennclimateventures/"
+          href="https://www.instagram.com/upennecoventure/"
           target="_blank"
           rel="noopener noreferrer"
         >
