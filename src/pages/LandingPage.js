@@ -20,8 +20,18 @@ const LandingPage = () => {
 
         <div className="hero-content">
           <h1 className="title">UPenn Eco-Venture Challenge</h1>
-          <p className="subheading"><b>WE HAVE EXTENDED OUR DEADLINE FROM MARCH 14TH TO APRIL 4TH</b></p>
-          <p className="subheading">Preparing tomorrow’s leaders to tackle today’s climate crisis.</p>
+          <div className="ceremony-banner" style={{
+            backgroundColor: 'rgba(0, 0, 0, 0.7)',
+            padding: '10px 20px',
+            borderRadius: '5px',
+            margin: '10px 0',
+          }}>
+            <h2 style={{ color: '#fff', margin: '0 0 5px 0', fontSize: '1.5rem' }}>OPENING CEREMONY</h2>
+            <p style={{ color: '#fff', margin: '0' }}>
+              <b>APRIL 5th @ 7 PM EST - <a href="https://upenn.zoom.us/j/98989743464" target="_blank" rel="noopener noreferrer" style={{textDecoration: 'underline', color: '#fff', fontWeight: 'bold'}}>JOIN WITH THIS LINK</a></b>
+            </p>
+          </div>
+          <p className="subheading">Preparing tomorrow's leaders to tackle today's climate crisis.</p>
           <Countdown />
           <p className="subcountdown">UNTIL FIRST ROUND CLOSES</p>
           <img 
@@ -44,10 +54,10 @@ const LandingPage = () => {
             The EcoVenture Challenge hosted by the University of Pennsylvania is a 100% remote, no-cost, 
             and accessible climate pitch competition for  high school, undergraduate, and master's students. Through 
             our challenge, we aim to empower high school and university students to create environmental 
-            business pitches to tackle today’s most pressing issues.
+            business pitches to tackle today's most pressing issues.
             </p>
             <p>
-            If you’re at all interested in addressing environmental issues through a business perspective, 
+            If you're at all interested in addressing environmental issues through a business perspective, 
             this competition is a perfect way to get real-world experience and feedback from industry experts.
             </p>
             <Link
@@ -67,7 +77,7 @@ const LandingPage = () => {
             <br /><br />
             <h2 className="heading">Up to $10,000 in prizes!</h2>
             <p>
-              In The EcoVenture Challenge, you will have the opportunity to compete for a <b>$10,000 TOTAL PRIZE POOL!</b> Our mission with this cash prize is to inspire upcoming entrepreneurs and fuel personal environmental projects. The prize is flexible and will be directly deposited to participants. We hope that our flexible prize money will motivate students and ultimately create Penn’s most impactful sustainability competition yet.
+              In The EcoVenture Challenge, you will have the opportunity to compete for a <b>$10,000 TOTAL PRIZE POOL!</b> Our mission with this cash prize is to inspire upcoming entrepreneurs and fuel personal environmental projects. The prize is flexible and will be directly deposited to participants. We hope that our flexible prize money will motivate students and ultimately create Penn's most impactful sustainability competition yet.
             </p>
             <br /><br /><br />
           </div>

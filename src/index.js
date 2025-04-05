@@ -5,8 +5,10 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 
-// Dynamically set basename for GitHub Pages vs. local development
-const basename = process.env.NODE_ENV === 'production' ? '/prize-website-v2' : '/';
+// Dynamically set basename based on the hostname
+// No basename needed for custom domain, but use /prize-website-v2 for github.io
+const isGitHubPages = window.location.hostname.includes('github.io');
+const basename = isGitHubPages ? '/prize-website-v2' : '/';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
