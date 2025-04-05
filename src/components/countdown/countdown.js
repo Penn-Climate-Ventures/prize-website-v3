@@ -5,11 +5,16 @@ const COUNTDOWN_TARGET = new Date("2025-04-04T23:59:59");
 
 const getTimeLeft = () => {
 	const totalTimeLeft = COUNTDOWN_TARGET - new Date();
-	const days = Math.floor(totalTimeLeft / (1000 * 60 * 60 * 24));
-	const hours = Math.floor((totalTimeLeft / (1000 * 60 * 60)) % 24);
-	const minutes = Math.floor((totalTimeLeft / (1000 * 60)) % 60);
-	const seconds = Math.floor((totalTimeLeft / 1000) % 60);
+	// const days = Math.floor(totalTimeLeft / (1000 * 60 * 60 * 24));
+	// const hours = Math.floor((totalTimeLeft / (1000 * 60 * 60)) % 24);
+	// const minutes = Math.floor((totalTimeLeft / (1000 * 60)) % 60);
+	// const seconds = Math.floor((totalTimeLeft / 1000) % 60);
+	const days = Math.floor(0);
+	const hours = Math.floor(0);
+	const minutes = Math.floor(0);
+	const seconds = Math.floor(0);
 	return { days, hours, minutes, seconds };
+
 };
 
 const Countdown = () => {
