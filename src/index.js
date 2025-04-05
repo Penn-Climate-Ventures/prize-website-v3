@@ -6,8 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 
 // Dynamically set basename for GitHub Pages vs. local development
-const basename = "/";
-
+const basename = process.env.NODE_ENV === 'production' ? '/prize-website-v2' : '/';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
