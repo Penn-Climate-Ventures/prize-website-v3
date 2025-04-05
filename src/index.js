@@ -5,10 +5,9 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 
-// Dynamically set basename based on the hostname
-// No basename needed for custom domain, but use /prize-website-v2 for github.io
-const isGitHubPages = window.location.hostname.includes('github.io');
-const basename = isGitHubPages ? '/prize-website-v2' : '/';
+// For a custom domain, we should always use '/' as the basename
+// The only time we need a different basename is for GitHub Pages without a custom domain
+const basename = '/';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

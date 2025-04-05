@@ -14,8 +14,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "touch build/.nojekyll && gh-pages -d build --dotfiles",
+    "predeploy": "npm run build && cp public/CNAME build/ && touch build/.nojekyll",
+    "deploy": "gh-pages -d build --dotfiles",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
