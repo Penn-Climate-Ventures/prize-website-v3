@@ -142,7 +142,7 @@ const Application = () => {
                 <strong>Preparation:</strong> Use the feedback from Round 1 to further refine your product before the live pitch.
               </li>
               <li>
-                <strong>Pitch Details:</strong> You will have a 15-minute presentation followed by an 8-minute Q&amp;A session with a panel of Penn professors and industry experts.
+                <strong>Pitch Details:</strong> You will have a 13-minute presentation followed by an 7-minute Q&amp;A session with a panel of Penn professors and industry experts.
               </li>
               <li>
                 <strong>April 26 – Final Round Event(HS)</strong>

@@ -31,7 +31,7 @@ const LandingPage = () => {
               <b>APRIL 5th @ 7 PM EST - <a href="https://upenn.zoom.us/j/98989743464" target="_blank" rel="noopener noreferrer" style={{textDecoration: 'underline', color: '#fff', fontWeight: 'bold'}}>JOIN WITH THIS LINK</a></b>
             </p>
           </div>
-          <p className="subheading">Preparing tomorrow's leaders to tackle today's climate crisis.</p>
+          <p className="subheading">Preparing tomorrow's leaders to tackle today's climate crisis!</p>
           <Countdown />
           <p className="subcountdown">UNTIL FIRST ROUND CLOSES</p>
           <img 
