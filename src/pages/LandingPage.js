@@ -26,14 +26,15 @@ const LandingPage = () => {
             borderRadius: '5px',
             margin: '10px 0',
           }}>
-            <h2 style={{ color: '#fff', margin: '0 0 5px 0', fontSize: '1.5rem' }}>OPENING CEREMONY</h2>
+            <h2 style={{ color: '#fff', margin: '0 0 5px 0', fontSize: '1.5rem' }}>FINAL ROUND</h2>
             <p style={{ color: '#fff', margin: '0' }}>
-              <b>APRIL 5th @ 7 PM EST - <a href="https://upenn.zoom.us/j/98989743464" target="_blank" rel="noopener noreferrer" style={{textDecoration: 'underline', color: '#fff', fontWeight: 'bold'}}>JOIN WITH THIS LINK</a></b>
+              <b>High School - APRIL 26th @ 3 PM EST - <a href="https://upenn.zoom.us/j/94016054726" target="_blank" rel="noopener noreferrer" style={{textDecoration: 'underline', color: '#fff', fontWeight: 'bold'}}>JOIN WITH THIS LINK</a></b><br/>
+              <b>University - APRIL 27th @ 3 PM EST - <a href="https://upenn.zoom.us/j/91530052511" target="_blank" rel="noopener noreferrer" style={{textDecoration: 'underline', color: '#fff', fontWeight: 'bold'}}>JOIN WITH THIS LINK</a></b>
             </p>
           </div>
           <p className="subheading">Preparing tomorrow's leaders to tackle today's climate crisis!</p>
           <Countdown />
-          <p className="subcountdown">UNTIL FIRST ROUND CLOSES</p>
+          <p className="subcountdown">UNTIL FINAL ROUND</p>
           <img 
             src={`${process.env.PUBLIC_URL}/double-arrow-down.png`} 
             alt="Scroll down"

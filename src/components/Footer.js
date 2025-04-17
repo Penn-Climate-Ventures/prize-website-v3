@@ -38,6 +38,11 @@ const Footer = () => {
             alt="CC Logo"
             style={{ ...styles.images, width: '270px', height: '270px' }}  // Override dimensions for square logo
           />
+          <img
+            src={`${process.env.PUBLIC_URL}/4air.png`}
+            alt="4Air Logo"
+            style={{ ...styles.images, width: '270px', height: '270px' }}  // Override dimensions for square logo
+          />
         </div>
         <p style={styles.footerText}>
           © 2025 PCV PRIZE. All rights reserved.
@@ -70,7 +75,7 @@ const styles = {
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    gap: '40px',
+    gap: '80px',
     flexWrap: 'wrap',
     margin: '20px 0',
   },
