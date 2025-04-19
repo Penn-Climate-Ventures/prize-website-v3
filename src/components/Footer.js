@@ -36,6 +36,11 @@ const Footer = () => {
             alt="CC Logo"
             style={{ ...styles.images, width: '270px', height: '270px' }}  // Override dimensions for square logo
           />
+          <img
+            src={`${process.env.PUBLIC_URL}/4air.png`}
+            alt="4Air Logo"
+            style={{ ...styles.images, width: '270px', height: '270px' }}  // Override dimensions for square logo
+          />
         </div>
   <p style={styles.footerText}>© 2025 PCV PRIZE. All rights reserved.</p>
 </div>
@@ -64,12 +69,13 @@ const styles = {
   },
 
   sponsorContainer: {
-    display: 'flex',
-    justifyContent: 'center',
+    display: 'grid',
+    gridTemplateColumns: 'repeat(3, 1fr)',
+    justifyItems: 'center',
     alignItems: 'center',
-    gap: '40px',
-    flexWrap: 'wrap',
-    margin: '20px 0',
+    gap: '20px',
+    margin: '20px auto', // Center the container
+    maxWidth: '1000px', // Limit container width
   },
   footerText: {
     margin: 0,
