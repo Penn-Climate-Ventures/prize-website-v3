@@ -60,8 +60,8 @@ const FinalRound = () => {
 
             <h3>Final Presentation Format</h3>
             <p>
-              The final deliverable will be a strictly capped 15 minute presentation supplemented by your 
-              submitted slide deck followed by an 8 minute Q&A session from the judges. More information 
+              The final deliverable will be a strictly capped 13 minute presentation supplemented by your 
+              submitted slide deck followed by an 7 minute Q&A session from the judges. More information 
               on expectations/rubric can be found in the application portal via Airtable.
             </p>
           </div>
