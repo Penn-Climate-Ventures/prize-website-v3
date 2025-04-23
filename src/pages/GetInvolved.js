@@ -76,7 +76,7 @@ const GetInvolved = () => {
                 serving as a judge, you'll empower student entrepreneurs to bring their ideas to
                 life.
               </p>
-              <p>Reach out to prizepcv@gmail.com if you are interested in becoming a judge or mentor for next year's competition.We are recruiting judges for each of the three rounds: written application, slide
+              <p>Reach out to prizepcv@gmail.com if you are interested in becoming a judge or mentor for next year's competition. We are recruiting judges for each of the three rounds: written application, slide
               deck, and live pitch judging.</p>
               <p>We would like to thank our Round 1 Judges for their hard work grading the pitches. We could not have done this without their respective expertise in the field. Thank you to: </p>
               <ul>
