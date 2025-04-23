@@ -73,20 +73,31 @@ const GetInvolved = () => {
               <h2>Judge</h2>
               <p>
                 Judges are essential to hosting a successful UPenn EcoVenture competition. By
-                serving as a judge, you’ll empower student entrepreneurs to bring their ideas to
+                serving as a judge, you'll empower student entrepreneurs to bring their ideas to
                 life.
               </p>
-              <p>
-                You would also be given the opportunity to become a mentor for participants in the
-                competition. As a mentor, you would be responsible for .... (ask J&P exact
-                logistics).
-              </p>
-              <p>
-                We are recruiting judges for each of the three rounds: written application, slide
-                deck, and live pitch judging. We extend our gratitude to all past and current judges
-                for their invaluable contributions.
-              </p>
-              <p>Reach out to: prizepcv@gmail.com if you are interested in becoming a judge or mentor.</p>
+              <p>Reach out to prizepcv@gmail.com if you are interested in becoming a judge or mentor for next year's competition.We are recruiting judges for each of the three rounds: written application, slide
+              deck, and live pitch judging.</p>
+              <p>We would like to thank our Round 1 Judges for their hard work grading the pitches. We could not have done this without their respective expertise in the field. Thank you to: </p>
+              <ul>
+                <li>Siddharth Gundala - Columbia University, Master's Student in Climate and Society</li>
+                <li>Julia Campbell - University of Michigan, PhD Student in Climate Science</li>
+                <li>Corey Pedersen - Harvard University, PhD Student in Environmental Science and Engineering</li>
+                <li>William Sewell - University of Oxford, Master's student in Nature, Society and Environmental Governance</li>
+                <li>Ananya A. Pillai - University of Pennsylvania, Master's Student in Environmental Studies</li>
+                <li>Bailey Lin - University of Pennsylvania, Master's Student in Environmental Studies</li>
+                <li>Jiayu Tang - University of Pennsylvania, Master's Student in Environmental Studies</li>
+                <li>Riqi Zhang - Imperial College London, PhD Student at the Center of Environmental Policy</li>
+                <li>Anne Rolim - Columbia University, Master's Student in Sustainability Management</li>
+                <li>Anar Amarjargal - Columbia University, Master's Student in Climate and Society</li>
+                <li>Yeraldi Loera - Princeton University, PhD Student in Ecology and Evolutionary Biology</li>
+                <li>Sierra Hicks - Cornell University, PhD Student in Natural Resources & the Environment</li>
+                <li>Narayani Sunil Pillai - University of Pennsylvania, Master's Student in Environmental Studies</li>
+                <li>Annabelle Horton - University of Pennsylvania, PhD Student in the Department of Earth and Environmental Science</li>
+                <li>Yanying Zhu - University of Oxford, Master's Student in Biodiversity Conservation and Management</li>
+                <li>Alexandra Gonzalez - Columbia University, Master's Student in Climate and Society, Policy</li>
+                <li>Molly Fowler - University of Pennsylvania, Master's Student in Environmental Studies</li>
+              </ul>
               {/* <p><strong>Judge List:</strong></p>
               <p>Photos and descriptions of judges will be added here.</p> */}
               <br /><br />
