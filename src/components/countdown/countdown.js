@@ -4,7 +4,7 @@ import "./styles.css";
 const COUNTDOWN_TARGET = new Date("2025-04-25T23:59:59");
 
 const getTimeLeft = () => {
-	// const totalTimeLeft = COUNTDOWN_TARGET - new Date();
+	const totalTimeLeft =0;
 	// const days = Math.floor(totalTimeLeft / (1000 * 60 * 60 * 24));
 	// const hours = Math.floor((totalTimeLeft / (1000 * 60 * 60)) % 24);
 	// const minutes = Math.floor((totalTimeLeft / (1000 * 60)) % 60);
