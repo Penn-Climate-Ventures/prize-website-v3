@@ -260,3 +260,62 @@ body {
   display: block;
   margin: 0 auto;
 }
+
+/* Styles for the Judges section */
+.judges-list {
+  display: flex;
+  flex-wrap: wrap; /* Allows judges to wrap to the next line on smaller screens */
+  justify-content: space-around; /* Distributes space evenly around judge items */
+  align-items: flex-start; /* Aligns items at the top if they have different heights */
+  gap: 20px; /* Consistent spacing between judge items */
+  padding: 15px 0; /* Padding above/below the list */
+}
+
+.judge-item {
+  display: flex;
+  flex-direction: column; /* Stacks photo and text vertically within each item */
+  align-items: center; /* Centers content (photo and text) */
+  text-align: center; /* Centers the text lines */
+  width: calc(25% - 20px); /* Aims for 4 items per row, accounting for gap. Adjust 20px if gap changes. */
+  min-width: 180px; /* Minimum width for an item before it wraps or shrinks too much */
+  box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+}
+
+.judge-item p {
+  margin-top: 10px; /* Space between photo and text */
+  font-size: 0.9rem; /* Slightly smaller font for name/affiliation */
+  line-height: 1.4; /* Improves readability */
+  color: #333; /* Darker text color for better contrast */
+}
+
+.judge-photo {
+  width: 120px; /* Desired width for the photo */
+  height: 120px; /* Desired height for the photo, making it a square for the circle */
+  border-radius: 50%; /* Makes the photo circular */
+  object-fit: cover; /* Ensures the image covers the area nicely without stretching */
+  border: 3px solid #f0f0f0; /* Optional: adds a light, subtle border around the photo */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: adds a slight shadow for depth */
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) { /* For tablets or smaller laptop screens */
+  .judge-item {
+    width: calc(33.333% - 20px); /* 3 items per row */
+  }
+}
+
+@media (max-width: 768px) { /* For smaller tablets */
+  .judge-item {
+    width: calc(50% - 20px); /* 2 items per row */
+  }
+}
+
+@media (max-width: 480px) { /* For mobile phones */
+  .judge-item {
+    width: calc(100% - 20px); /* 1 item per row, allowing for some horizontal gap */
+    min-width: unset; /* Remove min-width restriction for single column */
+  }
+  .judges-list {
+    justify-content: center; /* Center items when they are in a single column */
+  }
+}
