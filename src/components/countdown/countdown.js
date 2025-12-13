@@ -1,34 +1,27 @@
 import React, { useState, useEffect } from "react";
 import "./styles.css";
 
-const COUNTDOWN_TARGET = new Date("2025-04-25T23:59:59");
-
-const getTimeLeft = () => {
-	const totalTimeLeft = COUNTDOWN_TARGET - new Date();
+const getTimeLeft = (targetDate) => {
+	const totalTimeLeft = targetDate - new Date();
 	const days = Math.floor(totalTimeLeft / (1000 * 60 * 60 * 24));
 	const hours = Math.floor((totalTimeLeft / (1000 * 60 * 60)) % 24);
 	const minutes = Math.floor((totalTimeLeft / (1000 * 60)) % 60);
 	const seconds = Math.floor((totalTimeLeft / 1000) % 60);
-	// const days = Math.floor(0);
-	// const hours = Math.floor(0);
-	// const minutes = Math.floor(0);
-	// const seconds = Math.floor(0);
 	return { days, hours, minutes, seconds };
-
 };
 
-const Countdown = () => {
-	const [timeLeft, setTimeLeft] = useState(() => getTimeLeft());
+const Countdown = ({ targetDate = new Date("2026-01-26T00:00:00") }) => {
+	const [timeLeft, setTimeLeft] = useState(() => getTimeLeft(targetDate));
 
 	useEffect(() => {
 		const timer = setInterval(() => {
-			setTimeLeft(getTimeLeft());
+			setTimeLeft(getTimeLeft(targetDate));
 		}, 1000);
 
 		return () => {
 			clearInterval(timer);
 		};
-	}, []);
+	}, [targetDate]);
 
 	return (
 		<div className='countdown'>

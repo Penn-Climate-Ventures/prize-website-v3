@@ -31,17 +31,17 @@ const Footer = () => {
           <img
             src={`${process.env.PUBLIC_URL}/esg.png`}
             alt="ESG Logo"
-            style={{ ...styles.images, width: '100px', height: '100px' }}  // Override dimensions for square logo
+            style={{ ...styles.images, width: '120px', height: '120px' }}
           />
           <img
             src={`${process.env.PUBLIC_URL}/chenel_capital.png`}
             alt="CC Logo"
-            style={{ ...styles.images, width: '270px', height: '270px' }}  // Override dimensions for square logo
+            style={{ ...styles.images, width: '220px', height: '140px' }}
           />
           <img
             src={`${process.env.PUBLIC_URL}/4air.png`}
             alt="4Air Logo"
-            style={{ ...styles.images, width: '270px', height: '270px' }}  // Override dimensions for square logo
+            style={{ ...styles.images, width: '220px', height: '140px' }}
           />
         </div>
         <p style={styles.footerText}>
@@ -66,18 +66,20 @@ const styles = {
     padding: '20px',
   },
   images: {
-    width: '300px',
-    height: '200px',
+    width: '250px',
+    height: '140px',
     objectFit: 'contain',
   },
-  // Add specific style for ESG logo
   sponsorContainer: {
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    gap: '80px',
+    gap: '50px',
+    rowGap: '15px',
     flexWrap: 'wrap',
-    margin: '20px 0',
+    margin: '20px auto',
+    maxWidth: '1100px',
+    padding: '0 20px',
   },
   footerText: {
     margin: 0,

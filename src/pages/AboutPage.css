@@ -209,6 +209,38 @@ body {
 }
 
 .countdown {
-  margin-bottom: 0; 
+  margin-bottom: 0;
   color: #002657;
+}
+
+/* Mobile styles */
+@media screen and (max-width: 768px) {
+  .hero-section,
+  .about-hero {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .title {
+    font-size: 2rem;
+    padding: 0 15px;
+  }
+
+  .heading {
+    font-size: 1.6rem;
+  }
+
+  .subheading {
+    font-size: 0.9rem;
+    padding: 0 15px;
+  }
+
+  .section .content {
+    width: 90%;
+    padding: 0 15px;
+  }
+
+  .section hr {
+    width: 85%;
+  }
 }

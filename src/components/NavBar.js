@@ -30,9 +30,6 @@ const NavBar = () => {
         <Link to="/about" onClick={closeMenu}>
           ABOUT US
         </Link>
-        <Link to="/final-round" onClick={closeMenu}>
-          FINAL ROUND
-        </Link>
         <Link to="/apply" onClick={closeMenu}>
           APPLICATION
         </Link>

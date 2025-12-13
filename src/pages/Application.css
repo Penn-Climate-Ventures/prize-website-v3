@@ -272,3 +272,57 @@ body {
   line-height: 1.5;
 }
 
+/* Mobile styles */
+@media screen and (max-width: 768px) {
+  .hero-section,
+  .about-hero {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .title {
+    font-size: 2rem;
+    padding: 0 15px;
+  }
+
+  .heading {
+    font-size: 1.6rem;
+  }
+
+  .subheading {
+    font-size: 0.9rem;
+    padding: 0 15px;
+  }
+
+  .section .content {
+    width: 90%;
+    padding: 0 15px;
+  }
+
+  .section hr {
+    width: 85%;
+  }
+
+  .cta-button {
+    width: auto;
+    max-width: 100%;
+    padding: 12px 20px;
+    font-size: 1rem;
+  }
+
+  .rubric-category {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .rubric-category img {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .faq-button {
+    font-size: 0.9rem;
+    padding: 0.8rem;
+  }
+}

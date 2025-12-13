@@ -1,10 +1,9 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import LandingPage from './pages/LandingPage';
 import AboutPage from './pages/AboutPage';
 import Application from './pages/Application';
 import GetInvolved from './pages/GetInvolved';
-import FinalRound from './pages/FinalRound';
 
 
 function App() {
@@ -12,7 +11,7 @@ function App() {
     <Routes>
       <Route path="/" element={<LandingPage />} />
       <Route path="/about" element={<AboutPage />} />
-      <Route path="/final-round" element={<FinalRound />} />
+      <Route path="/final-round" element={<Navigate to="/apply" replace />} />
       <Route path="/apply" element={<Application />} />
       <Route path="/get-involved" element={<GetInvolved />} />
     </Routes>

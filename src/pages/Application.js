@@ -63,12 +63,12 @@ const Application = () => {
       <main className="main-content">
         <section className="section">
           <div className="content">
-            <h2 className="heading">Apply Now!</h2>
+            <h2 className="heading">Application opens 1/26/2026!</h2>
             <p>
-              Solutions can range from physical products to forums, events, or community service initiatives—either new ideas or existing projects you want to expand. Participants are encouraged to submit a prototype or demonstrate tangible progress, though it doesn’t need to be extensive.
+              Solutions can range from physical products to forums, events, or community service initiatives—either new ideas or existing projects you want to expand. Participants are encouraged to submit a prototype or demonstrate tangible progress, though it doesn't need to be extensive.
               <br />
               <br />
-              The deadline for the first round is April 4th, 11:59PM EST. Apply below!
+              The deadline for the first round is 3/21/2026.
             </p>
 
             <a
@@ -102,24 +102,19 @@ const Application = () => {
             <h3>Round 1: Registration &amp; Application Development</h3>
             <ul>
               <li>
-                <strong>Dec 15 – Registration Opens:</strong> Register and form your team (up to 5 members). High school teams must also secure an adult advisor.
+                <strong>Jan 26 – Registration Opens:</strong> Register and form your team (up to 5 members).
               </li>
               <li>
-                <strong>Application Preparation:</strong> Begin drafting your 4-page application, which should include:
-                <ul>
-                  <li>Problem Statement (Select a problem you want to focus on)</li>
-                  <li>Solution &amp; Environmental Impact Analysis</li>
-                  <li>Comparative Analysis</li>
-                </ul>
+                <strong>Application Preparation:</strong> Begin drafting your 15 page slidedeck.
               </li>
               <li>
-                <strong>April 4 – First Round Submission Deadline:</strong> Submit your complete application by this date.
+                <strong>March 21 – First Round Submission Deadline:</strong> Submit your complete application by this date.
               </li>
               <li>
-                <strong>April 5 – Opening Ceremony:</strong> Attend our virtual opening event to get to know the competition, meet our sponsors, and hear insights from Penn alumni in the energy field.
+                <strong>March 22 – Mandatory Opening Ceremony:</strong> Attend our virtual opening event to get to know the competition, meet our sponsors, and hear insights from Penn alumni in the energy field.
               </li>
               <li>
-                <strong>April 18 – First Round Results Announced:</strong> The top 4 teams per track will progress to Round 2.
+                <strong>April 4 – First Round Results Announced:</strong> The top 4 teams per track will progress to the final round.
               </li>
             </ul>
 
@@ -137,20 +132,13 @@ const Application = () => {
             </ul> */}
 
             <h3>Final Round: Live Pitch Presentation</h3>
-            <ul>
-              <li>
-                <strong>Preparation:</strong> Use the feedback from Round 1 to further refine your product before the live pitch.
-              </li>
-              <li>
-                <strong>Pitch Details:</strong> You will have a 13-minute presentation followed by an 7-minute Q&amp;A session with a panel of Penn professors and industry experts.
-              </li>
-              <li>
-                <strong>April 26 – Final Round Event(HS)</strong>
-              </li>
-              <li>
-                <strong>April 27 – Final Round Event(Undergraduate + Masters)</strong> 
-              </li>
-            </ul>
+            <p>
+              4 teams from each track will compete in a live zoom pitch to industry leaders and professors.
+              Results will be announced live on the Zoom call after judges debrief.
+            </p>
+            <p style={{ fontStyle: 'italic' }}>
+              More information on our final round will be available after the results of our 1st round are released.
+            </p>
           </div>
         </section>
 
@@ -218,7 +206,7 @@ const Application = () => {
               PCV reserves the <b>right to disqualify</b> any project that does not meet the eligibility requirements or violates the competition's integrity standards.
             </p>
             <p>
-              All participants are required to sign up on the registration form and participate in the virtual opening ceremony on <b> April 5th, 2025 at 7PM EST.</b> The link to the virtual opening ceremony will be provided to your email prior to the event.
+              All participants are required to sign up on the registration form and participate in the virtual opening ceremony on <b>March 22nd, 2026.</b> The link to the virtual opening ceremony will be provided to your email prior to the event.
             </p>
           </div>
         </section>
