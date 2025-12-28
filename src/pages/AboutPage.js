@@ -28,7 +28,7 @@ const AboutPage = () => {
               The UPenn Ecoventure Challenge is an annual international climate startup competition.
             </p>
             <p>
-              The UPenn EcoVenture Challenge is not like any other competition—it is a collaborative business pitch with feedback from professional judges and industry experts. As the premier international climate startup challenge, this initiative empowers high school, undergraduate, and master's students to transform groundbreaking ideas into tangible solutions for the world's most urgent environmental crises.
+              The UPenn EcoVenture Challenge is not like any other competition—it is a collaborative business pitch with real feedback from professional judges and industry experts. As the premier international climate startup challenge, this initiative empowers high school, undergraduate, and master's students to transform groundbreaking ideas into tangible solutions for the world's most urgent environmental crises.
             </p>
             <p>
               Each year, teams of 1-5 work together to create a business climate pitch. Whether that looks like proposing next-generation green technologies, policy-driven initiatives, or community-driven programs, participants innovate and drive forward what's possible. While physical products are encouraged, projects can take the form of digital platforms/software, advocacy campaigns, or community service organizing—all with the goal of tackling today's climate crisis.
