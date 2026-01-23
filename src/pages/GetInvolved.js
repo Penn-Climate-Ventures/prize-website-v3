@@ -98,6 +98,26 @@ const GetInvolved = () => {
                 <li>Alexandra Gonzalez - Columbia University, Master's Student in Climate and Society, Policy</li>
                 <li>Molly Fowler - University of Pennsylvania, Master's Student in Environmental Studies</li>
               </ul>
+              <br />
+              <h3>Final Round Judges:</h3>
+              <div className="judges-list">
+                <div className="judge-item">
+                  <img src={`${process.env.PUBLIC_URL}/final-round-judges/annelise-dyer.jpeg`} alt="Anneliese Dyer" className="judge-photo" />
+                  <p>Anneliese Dyer, 4AIR</p>
+                </div>
+                <div className="judge-item">
+                  <img src={`${process.env.PUBLIC_URL}/final-round-judges/david-jacoby.jpeg`} alt="David Steven Jacoby" className="judge-photo" />
+                  <p>David Steven Jacoby, NYU Stern Business School</p>
+                </div>
+                <div className="judge-item">
+                  <img src={`${process.env.PUBLIC_URL}/final-round-judges/daniel-bloch.jpeg`} alt="Daniel Bloch" className="judge-photo" />
+                  <p>Daniel Bloch, Lanzajet</p>
+                </div>
+                <div className="judge-item">
+                  <img src={`${process.env.PUBLIC_URL}/final-round-judges/chuck-hurchalla.jpeg`} alt="Chuck Hurchalla" className="judge-photo" />
+                  <p>Chuck Hurchalla, Evolution Sustainability Group</p>
+                </div>
+              </div>
               {/* <p><strong>Judge List:</strong></p>
               <p>Photos and descriptions of judges will be added here.</p> */}
               <br /><br />

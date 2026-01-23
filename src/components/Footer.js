@@ -10,7 +10,7 @@ const Footer = () => {
       />
       <div style={styles.underwater}>
         <p style={styles.footerText}>
-          Sponsors and Partners
+          Previous Sponsors and Partners
         </p>
         <div style={styles.sponsorContainer}>
           <img

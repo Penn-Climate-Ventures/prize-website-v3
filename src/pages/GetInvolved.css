@@ -323,3 +323,28 @@ body {
     padding-left: 20px;
   }
 }
+
+.judges-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: flex-start;
+  margin: 20px 0;
+}
+
+.judge-item {
+  text-align: center;
+  max-width: 200px;
+}
+
+.judge-photo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.judge-item p {
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
