@@ -72,21 +72,12 @@ const Application = () => {
             </p>
 
             <a
-              href="https://airtable.com/appsSPuO4G3jMYsxD/pagSMx2lt3o1Mb2qx/form"
+              href="https://form.typeform.com/to/L7OigO4E"
               className="cta-button"
               target="_blank"
               rel="noopener noreferrer"
             >
-              University Application
-            </a>
-            <br />
-            <a
-              href="https://airtable.com/appsSPuO4G3jMYsxD/pag57g9FCHY7p8KUO/form"
-              className="cta-button"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              High School Application
+              Apply Here
             </a>
           </div>
         </section>
@@ -161,6 +152,7 @@ const Application = () => {
               <li>
                 Modifications or improvements to existing technologies must demonstrate significant innovation, new applications, or unique business models that set them apart.
               </li>
+              <li>You may submit a project that has been presented in other pitch competitions, as long as it remains your original work and meets all other eligibility criteria.</li>
             </ul>
 
             <h3>Academic &amp; Professional Status</h3>
@@ -182,7 +174,7 @@ const Application = () => {
                 <strong>Cross-Institution Collaboration Allowed:</strong> Teams do not need to be from the same school, university, or country, as long as they fit within the same division.
               </li>
               <li>
-                <strong>Number of Team Members:</strong> Teams should consist of 1-5 members in the same pool (excluding their mentor).
+                <strong>Number of Team Members:</strong> Presenting team members should consist of 1-5 members in the same pool (excluding their mentor). The working team may be larger, but only these members will present the pitch.
               </li>
             </ul>
 
@@ -198,7 +190,7 @@ const Application = () => {
                 <strong>Conflict of Interest:</strong> If any team member is closely affiliated with the competition organizers, judges, or sponsors (e.g., immediate family members), the team must disclose this in their application.
               </li>
               <li>
-                <strong>Funding Limitations:</strong> You have NOT received more than $25K in external funding, dilutive or non-dilutive. In fact, you do not need to have any funding at all and startups can simply be pitches!
+                <strong>Funding Limitations:</strong> You have NOT received more than $50K in external funding, dilutive or non-dilutive. In fact, you do not need to have any funding at all and startups can simply be pitches!
               </li>
             </ul>
 
