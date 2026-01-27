@@ -21,7 +21,7 @@ const LandingPage = () => {
           <h1 className="title">UPenn Eco-Venture Challenge</h1>
           <p className="subheading">Preparing tomorrow's leaders to tackle today's climate crisis!</p>
           <p className="subcountdown">ROUND 1 APPLICATION OPENS</p>
-          <Countdown targetDate={new Date("2026-01-26T00:00:00")} />
+          <Countdown targetDate={new Date("2026-03-21T00:00:00")} />
           <img 
             src={`${process.env.PUBLIC_URL}/double-arrow-down.png`} 
             alt="Scroll down"

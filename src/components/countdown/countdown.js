@@ -10,7 +10,7 @@ const getTimeLeft = (targetDate) => {
 	return { days, hours, minutes, seconds };
 };
 
-const Countdown = ({ targetDate = new Date("2026-01-26T00:00:00") }) => {
+const Countdown = ({ targetDate = new Date("2026-03-21T00:00:00") }) => {
 	const [timeLeft, setTimeLeft] = useState(() => getTimeLeft(targetDate));
 
 	useEffect(() => {
