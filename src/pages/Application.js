@@ -63,7 +63,7 @@ const Application = () => {
       <main className="main-content">
         <section className="section">
           <div className="content">
-            <h2 className="heading">Application opens 1/26/2026!</h2>
+            <h2 className="heading">APPLY NOW!</h2>
             <p>
               Solutions can range from physical products to forums, events, or community service initiatives—either new ideas or existing projects you want to expand. Participants are encouraged to submit a prototype or demonstrate tangible progress, though it doesn't need to be extensive.
               <br />
