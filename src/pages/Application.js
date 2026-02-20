@@ -70,6 +70,16 @@ const Application = () => {
               <br />
               The deadline for the first round is 3/21/2026.
             </p>
+            <p>
+              Before you begin your application, read our{' '}
+              <a
+                href="https://drive.google.com/file/d/1rF048wpiVaSIKZIyvxVUq005j5BJcGvt/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                First Round Guide
+              </a>.
+            </p>
 
             <a
               href="https://form.typeform.com/to/L7OigO4E"
