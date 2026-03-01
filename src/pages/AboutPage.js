@@ -48,6 +48,42 @@ const AboutPage = () => {
 
         <section className="section">
           <div className="content">
+            <h2 className="heading">2025 Winners</h2>
+            <div className="winners-container">
+              <div className="winner-card">
+                <img
+                  src={`${process.env.PUBLIC_URL}/fireflight.png`}
+                  alt="Fire Flight logo"
+                  className="winner-logo"
+                />
+                <h3 className="winner-category">High School Winner</h3>
+                <p><strong>Summary:</strong><br />
+                Fire Flight is developing an AI-powered drone system equipped with thermal and infrared imaging to identify dry, high-risk areas across Oklahoma's landscapes.</p>
+                <p><strong>Future Plans:</strong><br />
+                With EcoVenture funding, Fire Flight will enhance AI development, upgrade drone sensors, and build a working prototype.</p>
+              </div>
+              <div className="winner-card">
+                <img
+                  src={`${process.env.PUBLIC_URL}/cleancrop.png`}
+                  alt="Clean Crop logo"
+                  className="winner-logo"
+                />
+                <h3 className="winner-category">University Winner</h3>
+                <p><strong>Summary:</strong><br />
+                Clean Crop empowers smallholder rice farmers in India to adopt water-efficient, low-emission practices by providing training, financing, and market access through a mobile platform.</p>
+                <p><strong>Future Plans:</strong><br />
+                With EcoVenture funding, Clean Crop will launch pilot studies in northern India to validate its model.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="section">
+          <hr />
+        </section>
+
+        <section className="section">
+          <div className="content">
             <h2 className="heading">Our Team</h2>
             <br />
             <img
