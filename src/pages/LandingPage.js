@@ -71,7 +71,7 @@ const LandingPage = () => {
             <br /><br /><br />
           </div>
         </section>
-        
+
       </main>
 
       <Footer />

@@ -213,6 +213,37 @@ body {
   color: #002657;
 }
 
+/* Past Winners Section */
+.winners-container {
+  display: flex;
+  gap: 60px;
+  margin-top: 30px;
+}
+
+.winner-card {
+  flex: 1;
+  text-align: left;
+}
+
+.winner-logo {
+  max-width: 180px;
+  max-height: 120px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+.winner-category {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  color: #002657;
+  margin: 10px 0 15px 0;
+}
+
+.winner-card p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
 /* Mobile styles */
 @media screen and (max-width: 768px) {
   .hero-section,
@@ -242,5 +273,18 @@ body {
 
   .section hr {
     width: 85%;
+  }
+
+  .winners-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .winner-card {
+    max-width: 100%;
+  }
+
+  .winner-category {
+    font-size: 1.3rem;
   }
 }
