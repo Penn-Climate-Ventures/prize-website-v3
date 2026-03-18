@@ -10,38 +10,28 @@ const Footer = () => {
       />
       <div style={styles.underwater}>
         <p style={styles.footerText}>
-          Previous Sponsors and Partners
+          Our Sponsors and Partners
         </p>
         <div style={styles.sponsorContainer}>
           <img
-            src={`${process.env.PUBLIC_URL}/wharton-logo.png`}
-            alt="Wharton Logo"
-            style={styles.images}
-          />
-          <img
-            src={`${process.env.PUBLIC_URL}/lanzajet.png`}
-            alt="LanzaJet Logo"
-            style={styles.images}
-          />
-          <img
-            src={`${process.env.PUBLIC_URL}/kleinman.png`}
+            src={`${process.env.PUBLIC_URL}/sponsors/kleinman.png`}
             alt="Kleinman Logo"
             style={styles.images}
           />
           <img
-            src={`${process.env.PUBLIC_URL}/esg.png`}
-            alt="ESG Logo"
-            style={{ ...styles.images, width: '120px', height: '120px' }}
+            src={`${process.env.PUBLIC_URL}/sponsors/mack_institute.png`}
+            alt="Mack Institute Logo"
+            style={styles.images}
           />
           <img
-            src={`${process.env.PUBLIC_URL}/chenel_capital.png`}
-            alt="CC Logo"
-            style={{ ...styles.images, width: '220px', height: '140px' }}
+            src={`${process.env.PUBLIC_URL}/sponsors/viper.png`}
+            alt="Viper Logo"
+            style={styles.images}
           />
           <img
-            src={`${process.env.PUBLIC_URL}/4air.png`}
-            alt="4Air Logo"
-            style={{ ...styles.images, width: '220px', height: '140px' }}
+            src={`${process.env.PUBLIC_URL}/sponsors/exelon.png`}
+            alt="Exelon Logo"
+            style={styles.images}
           />
         </div>
         <p style={styles.footerText}>

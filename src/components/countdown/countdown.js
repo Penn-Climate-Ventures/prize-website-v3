@@ -3,6 +3,9 @@ import "./styles.css";
 
 const getTimeLeft = (targetDate) => {
 	const totalTimeLeft = targetDate - new Date();
+	if (totalTimeLeft <= 0) {
+		return { days: 0, hours: 0, minutes: 0, seconds: 0 };
+	}
 	const days = Math.floor(totalTimeLeft / (1000 * 60 * 60 * 24));
 	const hours = Math.floor((totalTimeLeft / (1000 * 60 * 60)) % 24);
 	const minutes = Math.floor((totalTimeLeft / (1000 * 60)) % 60);

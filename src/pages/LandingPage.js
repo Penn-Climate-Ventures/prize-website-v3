@@ -59,16 +59,32 @@ const LandingPage = () => {
           </div>
         </section>
 
-        
+        <section className="section">
+          <div className="content">
+            <h2 className="heading">Opening Ceremony</h2>
+            <p>
+              <b>Sunday, March 22nd, 2026 at 7PM ET</b>
+            </p>
+            <p>
+              Join us for the mandatory opening ceremony to get to know the competition, meet our sponsors, and hear insights from Penn alumni in the energy field.
+            </p>
+            <a
+              href="https://upenn.zoom.us/j/99175679881?pwd=06KbsrDyTwWvfeAVYzbIgH2XT4GpXm.1"
+              className="cta-button"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Join Zoom
+            </a>
+          </div>
+        </section>
 
         <section className="section">
           <div className="content">
-            <br /><br />
-            <h2 className="heading">Up to $10,000 in prizes!</h2>
+            <h2 className="heading">Up to $6,000 in prizes!</h2>
             <p>
-              In The EcoVenture Challenge, you will have the opportunity to compete for <b>up to $10,000 total prize pool</b>! Our mission with this cash prize is to inspire upcoming entrepreneurs and fuel personal environmental projects. The prize is flexible and will be directly deposited to participants. We hope that our flexible prize money will motivate students and ultimately create Penn's most impactful sustainability competition yet.
+              In The EcoVenture Challenge, you will have the opportunity to compete for <b>up to $6,000 total prize pool</b>! Our mission with this cash prize is to inspire upcoming entrepreneurs and fuel personal environmental projects. The prize is flexible and will be directly deposited to participants. We hope that our flexible prize money will motivate students and ultimately create Penn's most impactful sustainability competition yet.
             </p>
-            <br /><br /><br />
           </div>
         </section>
 

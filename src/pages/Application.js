@@ -112,7 +112,7 @@ const Application = () => {
                 <strong>March 21 – First Round Submission Deadline:</strong> Submit your complete application by this date.
               </li>
               <li>
-                <strong>March 22 – Mandatory Opening Ceremony:</strong> Attend our virtual opening event to get to know the competition, meet our sponsors, and hear insights from Penn alumni in the energy field.
+                <strong>March 22, 7PM ET – Mandatory Opening Ceremony:</strong> Attend our virtual opening event to get to know the competition, meet our sponsors, and hear insights from Penn alumni in the energy field. <a href="https://upenn.zoom.us/j/99175679881?pwd=06KbsrDyTwWvfeAVYzbIgH2XT4GpXm.1" target="_blank" rel="noopener noreferrer">Zoom Link</a>
               </li>
               <li>
                 <strong>April 4 – First Round Results Announced:</strong> The top 4 teams per track will progress to the final round.
@@ -208,7 +208,7 @@ const Application = () => {
               PCV reserves the <b>right to disqualify</b> any project that does not meet the eligibility requirements or violates the competition's integrity standards.
             </p>
             <p>
-              All participants are required to sign up on the registration form and participate in the virtual opening ceremony on <b>March 22nd, 2026.</b> The link to the virtual opening ceremony will be provided to your email prior to the event.
+              All participants are required to sign up on the registration form and participate in the virtual opening ceremony on <b>March 22nd, 2026 at 7PM ET.</b> The link to the virtual opening ceremony will be provided to your email prior to the event.
             </p>
           </div>
         </section>
