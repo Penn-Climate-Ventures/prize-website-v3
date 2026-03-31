@@ -87,7 +87,7 @@ const GetInvolved = () => {
                 <li>Ananya A. Pillai - University of Pennsylvania, Master's Student in Environmental Studies</li>
                 <li>Bailey Lin - University of Pennsylvania, Master's Student in Environmental Studies</li>
                 <li>Jiayu Tang - University of Pennsylvania, Master's Student in Environmental Studies</li>
-                <li>Riqi Zhang - Imperial College London, PhD Student at the Center of Environmental Policy</li>
+                <li>Riqi Zhang - Imperial College London, PhD Student at the Centre for Environmental Policy</li>
                 <li>Anne Rolim - Columbia University, Master's Student in Sustainability Management</li>
                 <li>Anar Amarjargal - Columbia University, Master's Student in Climate and Society</li>
                 <li>Yeraldi Loera - Princeton University, PhD Student in Ecology and Evolutionary Biology</li>

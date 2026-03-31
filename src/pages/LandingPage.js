@@ -20,8 +20,8 @@ const LandingPage = () => {
         <div className="hero-content">
           <h1 className="title">UPenn Eco-Venture Challenge</h1>
           <p className="subheading">Preparing tomorrow's leaders to tackle today's climate crisis!</p>
-          <p className="subcountdown">ROUND 1 APPLICATION DUE</p>
-          <Countdown targetDate={new Date("2026-03-21T23:59:00")} />
+          <p className="subcountdown">FINAL ROUND BEGINS</p>
+          <Countdown targetDate={new Date("2026-04-11T16:00:00")} />
           <img 
             src={`${process.env.PUBLIC_URL}/double-arrow-down.png`} 
             alt="Scroll down"
@@ -61,21 +61,13 @@ const LandingPage = () => {
 
         <section className="section">
           <div className="content">
-            <h2 className="heading">Opening Ceremony</h2>
+            <h2 className="heading">Final Round</h2>
             <p>
-              <b>Sunday, March 22nd, 2026 at 7PM ET</b>
+              <b>High School Track:</b> April 11th, 2026 at 4-6PM ET
             </p>
             <p>
-              Join us for the mandatory opening ceremony to get to know the competition, meet our sponsors, and hear insights from Penn alumni in the energy field.
+              <b>University Track:</b> April 12th, 2026 at 4-6PM ET
             </p>
-            <a
-              href="https://upenn.zoom.us/j/99175679881?pwd=06KbsrDyTwWvfeAVYzbIgH2XT4GpXm.1"
-              className="cta-button"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Join Zoom
-            </a>
           </div>
         </section>
 
