@@ -133,12 +133,17 @@ const Application = () => {
             </ul> */}
 
             <h3>Final Round: Live Pitch Presentation</h3>
+            <ul>
+              <li>
+                <strong>April 11, 4-6PM ET – High School Track:</strong> Final round presentations for high school teams.
+              </li>
+              <li>
+                <strong>April 12, 4-6PM ET – University Track:</strong> Final round presentations for university teams.
+              </li>
+            </ul>
             <p>
               4 teams from each track will compete in a live zoom pitch to industry leaders and professors.
               Results will be announced live on the Zoom call after judges debrief.
-            </p>
-            <p style={{ fontStyle: 'italic' }}>
-              More information on our final round will be available after the results of our 1st round are released.
             </p>
           </div>
         </section>
