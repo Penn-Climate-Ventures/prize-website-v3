@@ -69,7 +69,6 @@ const GetInvolved = () => {
 
           {selectedContent === 'judges' && (
             <div>
-              <br />
               <h2>Judge</h2>
               <p>
                 Judges are essential to hosting a successful UPenn EcoVenture competition. By
@@ -78,6 +77,25 @@ const GetInvolved = () => {
               </p>
               <p>Reach out to prizepcv@gmail.com if you are interested in becoming a judge or mentor for next year's competition. We are recruiting judges for each of the three rounds: written application, slide
               deck, and live pitch judging.</p>
+              <h3>Final Round Judge:</h3>
+              <div className="judges-list">
+                <div className="judge-item">
+                  <img src={`${process.env.PUBLIC_URL}/final-round-judges/seth-snyder.png`} alt="Seth Snyder" className="judge-photo" />
+                  <p>Seth Snyder</p>
+                </div>
+              </div>
+              <h3>Final Round Speakers:</h3>
+              <div className="judges-list">
+                <div className="judge-item">
+                  <img src={`${process.env.PUBLIC_URL}/final-round-judges/sunny-elebua.jpeg`} alt="Sunny Elebua" className="judge-photo" />
+                  <p>Sunny Elebua</p>
+                </div>
+                <div className="judge-item">
+                  <img src={`${process.env.PUBLIC_URL}/final-round-judges/beth-zonis.png`} alt="Beth Zonis" className="judge-photo" />
+                  <p>Beth Zonis</p>
+                </div>
+              </div>
+              <h3>Round 1 Judges:</h3>
               <p>We would like to thank our Round 1 Judges for their hard work grading the pitches. We could not have done this without their respective expertise in the field. Thank you to: </p>
               <ul>
                 <li>Siddharth Gundala - Columbia University, Master's Student in Climate and Society</li>
@@ -98,29 +116,6 @@ const GetInvolved = () => {
                 <li>Alexandra Gonzalez - Columbia University, Master's Student in Climate and Society, Policy</li>
                 <li>Molly Fowler - University of Pennsylvania, Master's Student in Environmental Studies</li>
               </ul>
-              <br />
-              <h3>Final Round Judges:</h3>
-              <div className="judges-list">
-                <div className="judge-item">
-                  <img src={`${process.env.PUBLIC_URL}/final-round-judges/annelise-dyer.jpeg`} alt="Anneliese Dyer" className="judge-photo" />
-                  <p>Anneliese Dyer, 4AIR</p>
-                </div>
-                <div className="judge-item">
-                  <img src={`${process.env.PUBLIC_URL}/final-round-judges/david-jacoby.jpeg`} alt="David Steven Jacoby" className="judge-photo" />
-                  <p>David Steven Jacoby, NYU Stern Business School</p>
-                </div>
-                <div className="judge-item">
-                  <img src={`${process.env.PUBLIC_URL}/final-round-judges/daniel-bloch.jpeg`} alt="Daniel Bloch" className="judge-photo" />
-                  <p>Daniel Bloch, Lanzajet</p>
-                </div>
-                <div className="judge-item">
-                  <img src={`${process.env.PUBLIC_URL}/final-round-judges/chuck-hurchalla.jpeg`} alt="Chuck Hurchalla" className="judge-photo" />
-                  <p>Chuck Hurchalla, Evolution Sustainability Group</p>
-                </div>
-              </div>
-              {/* <p><strong>Judge List:</strong></p>
-              <p>Photos and descriptions of judges will be added here.</p> */}
-              <br /><br />
             </div>
           )}
         </div>

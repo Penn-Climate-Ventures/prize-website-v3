@@ -1,8 +1,6 @@
 import React from 'react';
 import Navbar from '../components/NavBar';
 import Footer from '../components/Footer';
-import Countdown from '../components/countdown/countdown';
-
 import './LandingPage.css';
 
 const LandingPage = () => {
@@ -20,15 +18,15 @@ const LandingPage = () => {
         <div className="hero-content">
           <h1 className="title">UPenn Eco-Venture Challenge</h1>
           <p className="subheading">Preparing tomorrow's leaders to tackle today's climate crisis!</p>
-          <p className="subcountdown">FINAL ROUND BEGINS</p>
-          <Countdown targetDate={new Date("2026-04-11T16:00:00")} />
-          <img 
-            src={`${process.env.PUBLIC_URL}/double-arrow-down.png`} 
+          <p className="subcountdown">THE 2026 COMPETITION HAS CONCLUDED</p>
+          <p className="subheading">Thank you to all participants! See you next year!</p>
+          <img
+            src={`${process.env.PUBLIC_URL}/double-arrow-down.png`}
             alt="Scroll down"
             className="scroll-arrow"
             onClick={() => {
-              document.querySelector('.main-content').scrollIntoView({ 
-                behavior: 'smooth' 
+              document.querySelector('.main-content').scrollIntoView({
+                behavior: 'smooth'
               });
             }}
           />
@@ -48,34 +46,14 @@ const LandingPage = () => {
             If you're at all interested in addressing environmental issues through a business perspective, 
             this competition is a perfect way to get real-world experience and feedback from industry experts.
             </p>
-            <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSdDMYJYYdEmjE7_GSvv3tzHyCe5ULHESMS9Qs0CddyfaC51FQ/viewform"
-              className="cta-button"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Interest Form
-            </a>
-          </div>
-        </section>
-
-        <section className="section">
-          <div className="content">
-            <h2 className="heading">Final Round</h2>
-            <p>
-              <b>High School Track:</b> April 11th, 2026 at 4-6PM ET
-            </p>
-            <p>
-              <b>University Track:</b> April 12th, 2026 at 4-6PM ET
-            </p>
-          </div>
+                      </div>
         </section>
 
         <section className="section">
           <div className="content">
             <h2 className="heading">Up to $6,000 in prizes!</h2>
             <p>
-              In The EcoVenture Challenge, you will have the opportunity to compete for <b>up to $6,000 total prize pool</b>! Our mission with this cash prize is to inspire upcoming entrepreneurs and fuel personal environmental projects. The prize is flexible and will be directly deposited to participants. We hope that our flexible prize money will motivate students and ultimately create Penn's most impactful sustainability competition yet.
+              In The EcoVenture Challenge, participants compete for <b>up to $6,000 total prize pool</b>! Our mission with this cash prize is to inspire upcoming entrepreneurs and fuel personal environmental projects. We hope that our flexible prize money will motivate students and ultimately create Penn's most impactful sustainability competition yet.
             </p>
           </div>
         </section>
