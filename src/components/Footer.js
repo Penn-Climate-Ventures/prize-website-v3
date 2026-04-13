@@ -33,6 +33,11 @@ const Footer = () => {
             alt="Exelon Logo"
             style={styles.images}
           />
+          <img
+            src={`${process.env.PUBLIC_URL}/sponsors/KCMJ.png`}
+            alt="KCMJ Logo"
+            style={styles.images}
+          />
         </div>
         <p style={styles.footerText}>
           © 2025 PCV PRIZE. All rights reserved.

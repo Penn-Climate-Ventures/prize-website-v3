@@ -63,32 +63,13 @@ const Application = () => {
       <main className="main-content">
         <section className="section">
           <div className="content">
-            <h2 className="heading">APPLY NOW!</h2>
+            <h2 className="heading">The 2026 Competition Has Concluded</h2>
             <p>
-              Solutions can range from physical products to forums, events, or community service initiatives—either new ideas or existing projects you want to expand. Participants are encouraged to submit a prototype or demonstrate tangible progress, though it doesn't need to be extensive.
-              <br />
-              <br />
-              The deadline for the first round is 3/21/2026.
+              Thank you to all participants! Check back next year for the 2027 competition.
             </p>
             <p>
-              Before you begin your application, read our{' '}
-              <a
-                href="https://drive.google.com/file/d/1rF048wpiVaSIKZIyvxVUq005j5BJcGvt/view?usp=sharing"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                First Round Guide
-              </a>.
+              Below you can find information about this year's competition for reference.
             </p>
-
-            <a
-              href="https://form.typeform.com/to/L7OigO4E"
-              className="cta-button"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Apply Here
-            </a>
           </div>
         </section>
 
@@ -98,7 +79,7 @@ const Application = () => {
 
         <section className="section schedule-section">
           <div className="content">
-            <h2 className="heading">Timeline</h2>
+            <h2 className="heading">2026 Timeline</h2>
             
             <h3>Round 1: Registration &amp; Application Development</h3>
             <ul>
@@ -112,7 +93,7 @@ const Application = () => {
                 <strong>March 21 – First Round Submission Deadline:</strong> Submit your complete application by this date.
               </li>
               <li>
-                <strong>March 22, 7PM ET – Mandatory Opening Ceremony:</strong> Attend our virtual opening event to get to know the competition, meet our sponsors, and hear insights from Penn alumni in the energy field. <a href="https://upenn.zoom.us/j/99175679881?pwd=06KbsrDyTwWvfeAVYzbIgH2XT4GpXm.1" target="_blank" rel="noopener noreferrer">Zoom Link</a>
+                <strong>March 22, 7PM ET – Mandatory Opening Ceremony:</strong> Virtual opening event to get to know the competition, meet our sponsors, and hear insights from Penn alumni in the energy field.
               </li>
               <li>
                 <strong>April 4 – First Round Results Announced:</strong> The top 4 teams per track will progress to the final round.
@@ -211,9 +192,6 @@ const Application = () => {
 
             <p>
               PCV reserves the <b>right to disqualify</b> any project that does not meet the eligibility requirements or violates the competition's integrity standards.
-            </p>
-            <p>
-              All participants are required to sign up on the registration form and participate in the virtual opening ceremony on <b>March 22nd, 2026 at 7PM ET.</b> The link to the virtual opening ceremony will be provided to your email prior to the event.
             </p>
           </div>
         </section>
