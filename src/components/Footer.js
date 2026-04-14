@@ -12,33 +12,49 @@ const Footer = () => {
         <p style={styles.footerText}>
           Our Sponsors and Partners
         </p>
+
+        <p style={styles.tierLabel}>Gold</p>
+        <div style={styles.sponsorContainer}>
+          <img
+            src={`${process.env.PUBLIC_URL}/sponsors/exelon.png`}
+            alt="Exelon Logo"
+            style={styles.sponsorImage}
+          />
+        </div>
+
+        <p style={styles.tierLabel}>Silver</p>
         <div style={styles.sponsorContainer}>
           <img
             src={`${process.env.PUBLIC_URL}/sponsors/kleinman.png`}
             alt="Kleinman Logo"
-            style={styles.images}
+            style={styles.sponsorImage}
           />
+          <img
+            src={`${process.env.PUBLIC_URL}/sponsors/skyview.png`}
+            alt="Skyview Logo"
+            style={styles.sponsorImage}
+          />
+        </div>
+
+        <p style={styles.tierLabel}>Bronze</p>
+        <div style={styles.sponsorContainer}>
           <img
             src={`${process.env.PUBLIC_URL}/sponsors/mack_institute.png`}
             alt="Mack Institute Logo"
-            style={styles.images}
-          />
-          <img
-            src={`${process.env.PUBLIC_URL}/sponsors/viper.png`}
-            alt="Viper Logo"
-            style={styles.images}
-          />
-          <img
-            src={`${process.env.PUBLIC_URL}/sponsors/exelon.png`}
-            alt="Exelon Logo"
-            style={styles.images}
+            style={styles.sponsorImage}
           />
           <img
             src={`${process.env.PUBLIC_URL}/sponsors/KCMJ.png`}
             alt="KCMJ Logo"
-            style={styles.images}
+            style={styles.sponsorImage}
+          />
+          <img
+            src={`${process.env.PUBLIC_URL}/sponsors/viper.png`}
+            alt="Viper Logo"
+            style={styles.sponsorImage}
           />
         </div>
+
         <p style={styles.footerText}>
           © 2025 PCV PRIZE. All rights reserved.
         </p>
@@ -60,9 +76,14 @@ const styles = {
     backgroundColor: '#78c5d8',
     padding: '20px',
   },
-  images: {
-    width: '250px',
-    height: '140px',
+  tierLabel: {
+    margin: '15px 0 5px 0',
+    fontSize: '1.1rem',
+    fontWeight: 'bold',
+  },
+  sponsorImage: {
+    width: '280px',
+    height: '160px',
     objectFit: 'contain',
   },
   sponsorContainer: {
@@ -72,12 +93,12 @@ const styles = {
     gap: '50px',
     rowGap: '15px',
     flexWrap: 'wrap',
-    margin: '20px auto',
+    margin: '10px auto',
     maxWidth: '1100px',
     padding: '0 20px',
   },
   footerText: {
-    margin: 0,
+    margin: '20px 0 0 0',
     fontSize: '1rem',
   },
 };
