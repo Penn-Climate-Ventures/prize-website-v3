@@ -98,23 +98,46 @@ const GetInvolved = () => {
               <h3>Round 1 Judges:</h3>
               <p>We would like to thank our Round 1 Judges for their hard work grading the pitches. We could not have done this without their respective expertise in the field. Thank you to: </p>
               <ul>
-                <li>Siddharth Gundala - Columbia University, Master's Student in Climate and Society</li>
-                <li>Julia Campbell - University of Michigan, PhD Student in Climate Science</li>
-                <li>Corey Pedersen - Harvard University, PhD Student in Environmental Science and Engineering</li>
-                <li>William Sewell - University of Oxford, Master's student in Nature, Society and Environmental Governance</li>
-                <li>Ananya A. Pillai - University of Pennsylvania, Master's Student in Environmental Studies</li>
-                <li>Bailey Lin - University of Pennsylvania, Master's Student in Environmental Studies</li>
-                <li>Jiayu Tang - University of Pennsylvania, Master's Student in Environmental Studies</li>
-                <li>Riqi Zhang - Imperial College London, PhD Student at the Centre for Environmental Policy</li>
-                <li>Anne Rolim - Columbia University, Master's Student in Sustainability Management</li>
-                <li>Anar Amarjargal - Columbia University, Master's Student in Climate and Society</li>
-                <li>Yeraldi Loera - Princeton University, PhD Student in Ecology and Evolutionary Biology</li>
-                <li>Sierra Hicks - Cornell University, PhD Student in Natural Resources & the Environment</li>
-                <li>Narayani Sunil Pillai - University of Pennsylvania, Master's Student in Environmental Studies</li>
-                <li>Annabelle Horton - University of Pennsylvania, PhD Student in the Department of Earth and Environmental Science</li>
-                <li>Yanying Zhu - University of Oxford, Master's Student in Biodiversity Conservation and Management</li>
-                <li>Alexandra Gonzalez - Columbia University, Master's Student in Climate and Society, Policy</li>
-                <li>Molly Fowler - University of Pennsylvania, Master's Student in Environmental Studies</li>
+                <li>Aditya Kohli - University of Pennsylvania, MBA, AI & ESG for Businesses</li>
+                <li>Al Lim - Yale University, PhD, Anthropology and Environmental Studies</li>
+                <li>Bibek Shrestha - Yale University, PhD, Environmental Science</li>
+                <li>Brandon Licata - University of Pennsylvania, Master of Environmental Studies</li>
+                <li>Christina Torres - Teachers College Columbia University, PhD, Climate Science Education</li>
+                <li>Denise Anderson - University of Pennsylvania, Executive Master of Public Administration</li>
+                <li>Emma Grace Cromwell - University of Pennsylvania, MES, Environmental Studies</li>
+                <li>Evelyn Gordi - University of Pennsylvania, Masters, Earth and Environmental Science</li>
+                <li>Farzaneh Shabani - UCLA, PhD, Civil and Environmental Engineering</li>
+                <li>Gabriel Gadsden - Yale University, School of the Environment</li>
+                <li>Georgia Ray - Imperial College London, PhD, Climate Mitigation Applications of Machine Learning</li>
+                <li>Husel Husile - University of Pennsylvania, PhD, Social Welfare</li>
+                <li>In Him Lee - Massachusetts Institute of Technology, PhD, Civil and Environmental Engineering</li>
+                <li>Julia Campbell - University of Michigan, PhD, Earth and Environmental Sciences</li>
+                <li>Jung-Hoon Cho - Massachusetts Institute of Technology, PhD, Civil and Environmental Engineering</li>
+                <li>Katherine Bennett - Johns Hopkins University, PhD, Planetary Science</li>
+                <li>Laxman Kafle - Massachusetts Institute of Technology, PhD, Civil and Environmental Engineering</li>
+                <li>Lena Easton-Calabria - University of Oxford, PhD, Geography and the Environment</li>
+                <li>Megan Siyi Liu - University of Oxford, Master's student in Sustainability, Enterprise, and the Environment</li>
+                <li>Meiqi Li - MIT, MEng, Civil and Environmental Engineering, Climate Environment and Sustainability Track</li>
+                <li>Mel Morgan - UPenn, Masters candidate, Environmental Studies</li>
+                <li>Morgan Bauer - University of Pennsylvania, MSE, Robotics</li>
+                <li>Muhammad Ilham Widiyantoko - Massachusetts Institute of Technology, MEng, Climate Environment and Sustainability Engineering</li>
+                <li>Nabila Safitri - University of Pennsylvania, Master of Environmental Studies</li>
+                <li>Riqi Zhang - Imperial College London, PhD, Environmental Policy Research</li>
+                <li>Rishabh Surendran - MBA, Cornell Tech</li>
+                <li>Rita Wu - University of Pennsylvania, Master of City Planning</li>
+                <li>Sanyukta Singh - University of Pennsylvania, Masters, Earth and Environmental Science</li>
+                <li>Sethu Lakshmi V G - University of Pennsylvania, MS, Environmental Studies (Sustainability)</li>
+                <li>Simone Cavalcante - University of Pennsylvania, MS, Dual Degree Nonprofit Leadership and Earth and Environmental Science</li>
+                <li>Simone Peter - MIT, PhD student in Computational Science and Engineering/Civil and Environmental Engineering</li>
+                <li>Tai Schroeder - University of Pennsylvania, Dual Masters, Environmental Studies and Nonprofit Leadership</li>
+                <li>Usman Jahun - Imperial College London, PhD Environmental Law & Policy</li>
+                <li>Valena McEwen - Yale University, PhD, Environment</li>
+                <li>Vicky Tang - University of Pennsylvania, MSSP+DA & Master in Law</li>
+                <li>Vincent Bio Bediako - University of Pennsylvania, PhD Demography</li>
+                <li>William Crawford - University of Pennsylvania, Master of Environmental Studies</li>
+                <li>Yara Alsinan - Massachusetts Institute of Technology, MS, Civil and Environmental Engineering</li>
+                <li>Yutong Du - Master of Environmental Studies, Concentration in Environmental Sustainability</li>
+                <li>Zainab Melisa Sesay - University of Pennsylvania, MES, Master of Environmental Studies</li>
               </ul>
             </div>
           )}
